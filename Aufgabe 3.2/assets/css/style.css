@@ -1,0 +1,33 @@
+*{
+        font-family: mont;
+}
+@font-face {
+    font-family: mont;
+    src: url(../Montserrat-Italic-VariableFont_wght.ttf);
+}
+p{
+    text-transform: capitalize;
+
+}
+p::first-line{
+    color:#483d8b;
+}
+h1::before {
+    content: "HI!";
+    color:#32cd32;
+}
+h1, h2, h3{
+    color:#2e8b57;
+}
+h2::after{
+    content: "!";
+    color: #a020f0;
+}
+p::first-letter{
+    font-size: 45px;
+    color:#00ced1;    
+}
+h3::selection{
+    color:#c71585;
+    background-color: #a020f0;
+}

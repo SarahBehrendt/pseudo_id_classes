@@ -1,0 +1,65 @@
+
+h1::first-letter{
+color:#00796B ;
+font-size: 3em;
+}
+
+h1:hover::first-letter{
+    color: #4FC3F7;
+  
+}
+
+li{
+    list-style-type: none;
+}
+
+.hacken::before{
+content: url(../icons/check.png);
+
+}
+
+.hacken{
+    text-decoration: line-through;
+    
+}
+
+.gmy::after{
+    content: url(../icons/gym.png);
+}
+
+.dollar::after{
+    content: url(../icons/bill.png);
+}
+
+.baustelle{
+    background-color: lightskyblue;
+    
+}
+
+.baustelle::before{
+    content: url(../icons/doing.png);
+}
+
+.mann::after{
+    content: url(../icons/dance.png);
+}
+
+.gabel::after{
+    content: url(../icons/eat.png);
+}
+
+.kreuz::before{
+    content: url(../icons/no.png);
+    
+}
+.kreuz{
+    text-decoration: underline;
+}
+
+.buch::after{
+    content: url(../icons/book.png);
+}
+
+.office::after{
+    content: url(../icons/organize.png);
+}

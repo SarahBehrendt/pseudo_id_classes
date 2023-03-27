@@ -1,0 +1,56 @@
+*{
+    margin:20px 60px;
+    padding:auto;
+    box-sizing: border-box;
+}
+
+
+
+h3:hover::first-letter{
+    color: #00796B;
+    font-size: 3em;
+}
+
+.list1::first-letter{
+    color: #00796B;
+    text-decoration: overline;
+    font-size: 2em;
+
+}
+
+.list2::first-letter{
+    color: #C51162;
+    text-decoration:underline;
+    font-size: 2em;
+}
+
+.list3::first-letter{
+    color: #64DD17 ;
+    text-decoration: line-through;
+    font-size: 2em;
+}
+.absatz_text_ident:{
+    color: #37474F;
+    text-indent: 50px;
+}
+
+.absatz_text_ident::first-line{
+    font-size: 1.3em;
+}
+.first_letter_p::first-letter{
+    font-size: 1.5em;
+    color: #D50000;
+}
+
+.first_letter_p::first-line{
+    color: green;
+}
+
+.first_letter_p:hover::first-line{
+    color:#303F9F ;
+
+}
+
+p:nth-child(even){
+    font-weight: 600;
+}

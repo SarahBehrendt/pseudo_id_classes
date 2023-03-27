@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: monte;
+    src: url(../Monteserrat.ttf);
+
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../Raleway.ttf);
+}
+
+h3:hover{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: pink;
+
+
+}
+.list1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4E342E;
+}
+
+.list2{
+font-family:monte;
+color: #689f38;
+
+
+}
+.list3{
+    font-family: Raleway;
+    color:#EF5350;
+}
+
+.einzelfarbe{
+    color: #999;
+
+}
+.absatz_size{
+    font-size: 26px;
+}
+
+.absatz_farbe{
+    color:#0277bd ;
+}
+
+button{
+   text-align: center;
+   display: block;
+   margin: 10px auto;
+   height: 50px;
+   width: 200px;
+   font-size: 15px;
+   font-weight: bold;
+   background-image: linear-gradient(to bottom right, red, yellow);
+   border-radius: 20px;
+
+
+}
+ button:hover{
+    background-image: linear-gradient(to bottom right, rgb(192, 230, 41), rgb(23, 142, 202));
+    font-size: 20px;
+    
+ }
+ button:active{
+    background-image: aqua;
+    color: white;
+ }
